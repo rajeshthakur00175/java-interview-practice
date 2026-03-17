@@ -2,7 +2,7 @@ package org.array;
 
 import java.util.HashSet;
 
-public class  CommonElements {
+public class CommonElements {
     public static void main(String[] args) {
         String[] s1 = {"ONE", "TWO", "THREE", "FOUR", "FIVE", "FOUR"};
 
@@ -10,10 +10,10 @@ public class  CommonElements {
 
         HashSet<String> set = new HashSet<>();
 
-        for (String s : s1) {
+        for (int i = 0; i < s1.length; i++) {
             for (int j = 0; j < s2.length; j++) {
-                if (s.equals(s2[j])) {
-                    set.add(s);
+                if (s1[i].equals(s2[j])) {
+                    set.add(s1[i]);
                 }
             }
         }
