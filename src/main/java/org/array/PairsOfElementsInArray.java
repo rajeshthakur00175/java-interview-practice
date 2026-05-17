@@ -3,7 +3,7 @@ package org.array;
 import java.util.Arrays;
 
 public class PairsOfElementsInArray {
-    static void findThePairs(int inputArray[], int inputNumber)
+    static void findThePairs(int[] inputArray, int inputNumber)
     {
         //Sorting the given array
 

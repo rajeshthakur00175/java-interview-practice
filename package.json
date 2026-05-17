@@ -1,0 +1,24 @@
+{
+  "name": "java-interview-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshthakur00175/java-interview-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rajeshthakur00175/java-interview-practice/issues"
+  },
+  "homepage": "https://github.com/rajeshthakur00175/java-interview-practice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
