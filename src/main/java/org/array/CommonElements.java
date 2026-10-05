@@ -19,6 +19,7 @@ public class CommonElements {
         }
 
         System.out.println(set);     //OUTPUT : [THREE, FOUR, FIVE]
+        
     }
 
 }
